@@ -1,0 +1,26 @@
+I see. There are a few things you can check if Marp is not working on PowerShell or Command Prompt:
+
+Make sure that you have Node.js installed. You can check this by running the following command in your terminal:
+node -v
+If you do not have Node.js installed, you can download it from the Node.js website: https://nodejs.org/en/download/.
+
+Make sure that you have the Marp CLI installed. You can check this by running the following command in your terminal:
+npm list -g @marp-team/marp-cli
+If you do not have the Marp CLI installed, you can install it by running the following command:
+
+npm install -g @marp-team/marp-cli
+Make sure that you are running the Marp CLI in the correct directory. The Marp CLI needs to be run in the directory where the Marp presentation file is located.
+If you have checked all of these things and Marp is still not working, you can try the following:
+
+Restart your computer.
+Try running the Marp CLI as an administrator.
+Report the issue to the Marp team.
+I hope this helps! Let me know if you have any other questions.
+
+++++
+
+npx marp --pdf --output=dist --input-dir=src  --allow-local-files
+
+npx marp
+[  INFO ] Converting 1 markdown...
+[  INFO ] src/slides.md => dist/slides.html
